@@ -11,12 +11,13 @@ Clone the repository to your local machine:
 ```bash
 Copy code
 git clone https://github.com/your-username/calculator-app.git
-Navigate to the project directory:```
-
-bash
+Navigate to the project directory:
+```
+```bash
 Copy code
 cd calculator-app
-Install dependencies:
+```
+#Install dependencies:
 
 bash
 Copy code
