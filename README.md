@@ -1,65 +1,43 @@
+# Features
 
-##Calculator App
-#Overview
-This repository contains the source code for a simple calculator app developed using React Native. The app allows users to perform basic arithmetic operations, such as addition, subtraction, multiplication, and division.
+- **Responsive Design:** The app is designed to work on various screen sizes with a responsive layout.
 
-#Getting Started
-To run the app locally, follow these steps:
+- **Basic Arithmetic Operations:** Users can perform addition, subtraction, multiplication, and division.
 
-Clone the repository to your local machine:
+- **Memory Clear:** The "AC" button clears the memory, resetting the calculator.
 
-```bash
-Copy code
-git clone https://github.com/your-username/calculator-app.git
-Navigate to the project directory:
-```
-```bash
-Copy code
-cd calculator-app
-```
-#Install dependencies:
+# Code Structure
 
-bash
-Copy code
-npm install
-Run the app:
+- **App.tsx:** The main component that orchestrates the calculator logic and UI.
 
-bash
-Copy code
-npm start
-Features
-Responsive Design: The app is designed to work on various screen sizes with a responsive layout.
+- **Button.tsx:** Component for rendering calculator buttons with different styles based on their properties.
 
-Basic Arithmetic Operations: Users can perform addition, subtraction, multiplication, and division.
+- **Display.tsx:** Component responsible for displaying the calculator's current value.
 
-Memory Clear: The "AC" button clears the memory, resetting the calculator.
+# Usage
 
-Code Structure
-App.tsx: The main component that orchestrates the calculator logic and UI.
+1. **Numeric Input:**
+   - Tap on the numeric buttons (0-9) to input numbers.
+   - The decimal point (.) button allows inputting decimal numbers.
 
-Button.tsx: Component for rendering calculator buttons with different styles based on their properties.
+2. **Arithmetic Operations:**
+   - Use the addition (+), subtraction (-), multiplication (*), and division (/) buttons to perform operations.
 
-Display.tsx: Component responsible for displaying the calculator's current value.
+3. **Memory Clear:**
+   - Press the "AC" button to clear the memory and reset the calculator.
 
-Usage
-Numeric Input:
+4. **Result Calculation:**
+   - Press the "=" button to calculate and display the result.
 
-Tap on the numeric buttons (0-9) to input numbers.
-The decimal point (.) button allows inputting decimal numbers.
-Arithmetic Operations:
+# Technologies Used
 
-Use the addition (+), subtraction (-), multiplication (*), and division (/) buttons to perform operations.
-Memory Clear:
+- React Native
+- TypeScript
 
-Press the "AC" button to clear the memory and reset the calculator.
-Result Calculation:
+# Contributing
 
-Press the "=" button to calculate and display the result.
-Technologies Used
-React Native
-TypeScript
-Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please create an issue or submit a pull request.
 
-License
-This project is licensed under the MIT License.
+# License
+
+This project is licensed under the [MIT License](LICENSE).
